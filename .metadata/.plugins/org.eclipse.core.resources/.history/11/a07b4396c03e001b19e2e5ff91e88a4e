@@ -1,0 +1,11 @@
+package com.datarynx.spring.data.user.api.model;
+
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+@Table(name = "User_Details")
+public class UserRequest {
+
+}

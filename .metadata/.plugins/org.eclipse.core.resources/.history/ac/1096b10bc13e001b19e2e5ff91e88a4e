@@ -1,0 +1,9 @@
+package com.datarynx.spring.data.user.api.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.datarynx.spring.data.user.api.model.UserRequest;
+
+public interface UserRepository extends JpaRepository<UserRequest, Integer> {
+
+}

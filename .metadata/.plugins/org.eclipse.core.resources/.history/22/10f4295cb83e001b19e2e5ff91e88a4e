@@ -1,0 +1,15 @@
+package com.datarynx.feign.hystrix.api.dto;
+
+public class User {
+
+	private Long id;
+
+    private String firstName;
+
+    private String lastName;
+
+    private String gender;
+
+    //@Column(name = "home_address")
+    private String address;
+}

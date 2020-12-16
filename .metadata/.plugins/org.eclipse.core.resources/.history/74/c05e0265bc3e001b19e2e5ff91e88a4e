@@ -1,0 +1,23 @@
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8788/eureka/
+  instance:
+    hostname: localhost
+
+feign:
+  client:
+    config:
+      default:
+        readTimeout: 1500
+        connectTimeout: 500
+
+
+service:
+    base:
+        url: http://localhost:8083/springDataDemo/
+    name: feignUserService
+  
+server:  port: 8085    

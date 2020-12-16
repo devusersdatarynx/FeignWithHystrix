@@ -1,0 +1,5 @@
+package com.datarynx.feign.hystrix.api.service;
+
+public interface UserService {
+
+}

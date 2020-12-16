@@ -1,0 +1,5 @@
+package com.datarynx.feign.hystrix.api.dto;
+
+public class User {
+
+}

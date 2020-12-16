@@ -1,0 +1,5 @@
+package com.datarynx.spring.data.user.api.model;
+
+public class UserRequest {
+
+}
